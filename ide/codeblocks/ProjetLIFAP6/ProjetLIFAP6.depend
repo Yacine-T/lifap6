@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1582129284 source:/home/yacine/Documents/prog_algo_complexite/projet/projetlifap6/src/board.cpp
+	"board.hpp"
+	<fstream>
+
+1582129284 /home/yacine/Documents/prog_algo_complexite/projet/projetlifap6/src/board.hpp
+	"spot.hpp"
+	<iostream>
+
+1582129284 /home/yacine/Documents/prog_algo_complexite/projet/projetlifap6/src/spot.hpp
+	"bonus.hpp"
+	<iostream>
+
+1582129284 /home/yacine/Documents/prog_algo_complexite/projet/projetlifap6/src/bonus.hpp
+
+1582129284 source:/home/yacine/Documents/prog_algo_complexite/projet/projetlifap6/src/bonus.cpp
+	"bonus.hpp"
+

@@ -1,0 +1,86 @@
+Liste des questions suscpetibles d'être posées à la soutennace :
+
+1) questions liées au comportment du programme :
+	Préparer des boucs de code à modifier pour montrer le changement de comportement du programme.
+
+
+2) questions liées aux difficultés :
+
+	Quelles ont été les principales difficultés ?
+		-a) L'une des principales difficultés a été de trouver une structure de données qui puisse nous permettre d'avoir une compléxité en temps constant pour le Gaddag. 
+		-b) Dans un second temps, nous avons trouvé des difficultés à implémenter la fonction qui liste les coups compatibles et choisir le meilleur coup.
+
+	Comment les avons-nous surmontées ?
+		-a) Nous avons d'abord utiliser un tableau dynamique car on pouvait gagner de l'espace mémoire dans le Gaddag, la prof nous a conseiller d'utiliser une autre
+		structure de données alors nous avons choisis les tableaux statiques (nécessite un peu plus de code que les dictionnaires).
+		-b) Nous avons procéder de manière incrémentale, d'abord une fonction de listage simple puis on l'a complexifié au fur et à mésure.
+
+	S'il y avait un point à revoir dans ce projet, lequel serait-il ? Pourquoi ?
+		Ca serait la fonction qui sert à lister les coups compatible, avec plus de temps nous l'aurions codé plus simple.
+		Pour gagner en complexité dans le code et en complexité temporelle.
+
+
+3) questions liées à l'organisation du projet :
+
+	Comment s'est organisé le projet ?
+		Nous avons travailler en pair programming. K'un codait et l'autre corrigeait les erreurs de syntaxes et donnait les instructions.
+		Comment vous êtes-vous répartis les tâches ?
+			On ne s'est pas vraiment repartit de tâche, le projet n'étant pas trop complexe. Nous avons effectuer la phase d'analyse. Nous avons réaliser un diagramme UML sur papier concernant le Gaddag.
+
+	Comme nous l'avons expliqué précédemment, nous avons travailler en pair programming. Cela signifie que chacun à touché à du code.
+
+	Quel est le degré d'implication de chacun ?
+		Nous avons travailler ensemble.
+
+4) questions liées à l'expérience personnelle :
+
+	Quelle expérience a-t-on pu retenir de ce projet ?
+
+		Yacine : La structure choisie va inluencer sur la compléxité de notre algorithme.
+		Le pair programming s'avère être une technique efficace qui m'a beaucoup plus.
+		Grâce à mon collègue, j'ai pu travailler sur la compléxité mais surtout j'ai pu assimiler
+		des notions de C++.
+		Raoufdine : J'ai pris du plaisir à travailler avec mon ami, j'ai découvert le pair-programming, j'ai aussi pu apprendre sur la complexité.
+
+
+5) questions liées à la compléxité du projet :
+	Complexité du Gaddag:
+		- Prendre une lettre au hasard du sac LetterBag::takeLetter(char& l_) : O(1)
+		- Noeud terminal pour un mot Gaddag::find(const std::string& word_) : O(n) 	# Longueur du mot
+		- Insertion des combinaisons d'un mot avec le + insertPlus: O(n²)			# Longueur du mot
+		- Liste de tous les coups possibles AIScrabble::listAllPossibleKicks : aux moins O(n^3).
+
+	Quel changement pourrions-nous effectuer pour améliorer la complexité ?
+		Probablement améliorer la fonction AIScrabble::listAllPossibleKicks.
+
+6) questions liées à l'architecture des fichiers du projet :
+
+	Expliquer l'architecture des fichiers projet ?
+		Un module, fichier cpp et hpp par classe. Tout dans src.
+
+	Comment la fonction F() (f est un exemple) fonctionne ?
+		
+
+7) questions liées aux SD (structures de données) du projet :
+
+	Quelle(s) autre(s) SD aurions-nous pu implémenter pour avoir une meilleure compléxité ? std::map dictionnaire
+	Connait-on un SD identique au gaddag ? Oui
+	Si oui, laquelle ? Un tableau dynamique
+	Comment fonctionne-t-elle ? 
+	Quels sont les avantages et incovénients par rapport au Gaddag ? Avantage : Plus petit (taille), Inconvénient : Temps d'accées
+
+
+8) questions liées à l'implémentation du scrabble :
+
+	Comment avez-vous gérer les cas particuliers du scrabble (mots perpendiculaires etc ....) -> à illustrer avec un exemple ?
+		Oui on a fait une implémentation complète. Executer le main 4IA.
+
+
+9) questions liées à la phase d'analyse et de développement du projet :
+
+	Avez-vous réaliser une phase d'analyse au préalable ?
+		Oui
+	Si oui, pouvez-vous la présenter ?
+	Fournir le diagramme UML
+	Quel changement avez-vous effectué entre cette phase et celle de dev ? Pourquoi ? On a complèter le diagramme avec d'autres classes
+	En quoi ont-ils amélioré la compléxité de votre programme ? Rien
