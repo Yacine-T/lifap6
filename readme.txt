@@ -1,5 +1,5 @@
-Students : SAID Raoufdine - TAZDAIT Yacine
-Teacher/Professor : FULLOP Bea
+Students : XXXX XXXXXXX (student who collaborate with me) - TAZDAIT Yacine
+Teacher/Professor : XXXXX XXXX
 
 I - English version
 
